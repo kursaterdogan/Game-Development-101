@@ -7,11 +7,11 @@ namespace DesignPatterns.ModelViewPresenter
 {
     public class Level : MonoBehaviour
     {
-        [SerializeField] int pointsPerLevel = 200;
-        private int _experiencePoints;
-
         public event Action OnLevelUpAction;
         public event Action OnExperienceChange;
+
+        [SerializeField] int pointsPerLevel = 200;
+        private int _experiencePoints;
 
         public void GainExperience(int points)
         {
