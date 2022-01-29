@@ -7,8 +7,9 @@ namespace DesignPatterns.ObjectPool
 {
     public class Launcher : MonoBehaviour
     {
-        [SerializeField] private Bullet bulletPrefab;
         private IObjectPool<Bullet> _bulletPool;
+
+        [SerializeField] private Bullet bulletPrefab;
 
         private void Awake()
         {
