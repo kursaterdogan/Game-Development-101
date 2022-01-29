@@ -7,8 +7,9 @@ namespace DesignPatterns.ObjectPool
 {
     public class Bullet : MonoBehaviour
     {
-        [SerializeField] Vector3 speed;
         private IObjectPool<Bullet> _bulletPool;
+
+        [SerializeField] Vector3 speed;
 
         private void Update()
         {
