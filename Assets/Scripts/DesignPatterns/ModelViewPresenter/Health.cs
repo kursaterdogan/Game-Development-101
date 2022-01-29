@@ -7,11 +7,11 @@ namespace DesignPatterns.ModelViewPresenter
 {
     public class Health : MonoBehaviour
     {
+        public event Action OnHealthChange;
+
         private float _fullHealth = 100f;
         private float _drainPerSecond = 2f;
         private float _currentHealth;
-
-        public event Action OnHealthChange;
 
         private void Awake()
         {
