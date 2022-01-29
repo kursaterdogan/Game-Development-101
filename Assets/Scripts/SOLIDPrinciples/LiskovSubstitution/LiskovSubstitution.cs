@@ -24,7 +24,6 @@ namespace SOLIDPrinciples.LiskovSubstitution
         }
     }
 
-
     public class Rectangle
     {
         protected float Height;
