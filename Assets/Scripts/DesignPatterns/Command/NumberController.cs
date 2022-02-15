@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace DesignPatterns.Commander
+namespace DesignPatterns.Command
 {
     public class NumberController : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DesignPatterns.Commander
+namespace DesignPatterns.Command
 {
     public class Gameboard : MonoBehaviour
     {

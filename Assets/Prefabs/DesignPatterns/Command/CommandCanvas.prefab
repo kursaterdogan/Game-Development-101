@@ -949,7 +949,7 @@ GameObject:
   - component: {fileID: 8804224350799666675}
   - component: {fileID: 8804224350799666672}
   m_Layer: 5
-  m_Name: CommanderCanvas
+  m_Name: CommandCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,4 +1,4 @@
-namespace DesignPatterns.Commander
+namespace DesignPatterns.Command
 {
     public interface ICommand
     {

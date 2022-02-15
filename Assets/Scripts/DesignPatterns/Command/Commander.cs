@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DesignPatterns.Commander
+namespace DesignPatterns.Command
 {
     public class Commander : MonoBehaviour
     {

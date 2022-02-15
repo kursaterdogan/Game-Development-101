@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5144012149310215767}
   - component: {fileID: 5144012149310215766}
   m_Layer: 0
-  m_Name: Commander
+  m_Name: Command
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

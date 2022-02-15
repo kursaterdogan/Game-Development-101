@@ -528,7 +528,7 @@ PrefabInstance:
       objectReference: {fileID: 1873892114907193973}
     - target: {fileID: 5144012149310215770, guid: e0ae9cf271a1356499a9cbd55a6d6f7d, type: 3}
       propertyPath: m_Name
-      value: Commander
+      value: Command
       objectReference: {fileID: 0}
     - target: {fileID: 5144012149310215770, guid: e0ae9cf271a1356499a9cbd55a6d6f7d, type: 3}
       propertyPath: m_IsActive
@@ -748,7 +748,7 @@ PrefabInstance:
       objectReference: {fileID: 1323360891}
     - target: {fileID: 8804224350799666673, guid: c7863348b3658d444b6bec25213ca690, type: 3}
       propertyPath: m_Name
-      value: CommanderCanvas
+      value: CommandCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 8804224350799666673, guid: c7863348b3658d444b6bec25213ca690, type: 3}
       propertyPath: m_IsActive
