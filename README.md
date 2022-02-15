@@ -30,6 +30,7 @@
       <li>Decorator</li>
       <li>Composite</li>
       <li>Model-View-Presenter</li>
+      <li>Commander</li>
     </ul>
   </li>
 </ul>
