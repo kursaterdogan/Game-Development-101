@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
 
@@ -11,10 +10,14 @@ namespace DesignPatterns.ObjectPool
 
         [SerializeField] Vector3 speed;
 
+        private void OnEnable()
+        {
+            StartCoroutine(ReleaseCoroutine());
+        }
+
         private void Update()
         {
             Move();
-            StartCoroutine(ReleaseCoroutine());
         }
 
         public void SetPool(IObjectPool<Bullet> pool)
