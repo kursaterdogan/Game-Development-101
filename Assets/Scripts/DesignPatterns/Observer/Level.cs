@@ -39,15 +39,7 @@ namespace DesignPatterns.Observer
             _experiencePoints += points;
 
             if (GetLevel() > level)
-            {
                 OnLevelUpAction?.Invoke();
-
-                // Without ?.invoke
-                // if (OnLevelUpAction != null)
-                // {
-                //     OnLevelUpAction();
-                // }
-            }
         }
 
         public int GetExperience()
