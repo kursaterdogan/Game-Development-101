@@ -20,9 +20,7 @@ namespace DesignPatterns.ModelViewPresenter
             OnExperienceChange?.Invoke();
 
             if (GetLevel() > level)
-            {
                 OnLevelUpAction?.Invoke();
-            }
         }
 
         public int GetExperience()
