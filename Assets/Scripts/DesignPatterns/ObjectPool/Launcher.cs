@@ -58,9 +58,7 @@ namespace DesignPatterns.ObjectPool
         private void SpawnBullet()
         {
             if (Input.GetKeyDown(KeyCode.Space))
-            {
                 _bulletPool.Get();
-            }
         }
     }
 }
